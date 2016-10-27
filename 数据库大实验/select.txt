@@ -1,0 +1,32 @@
+S E
+E select A from N
+E select A from N where W
+A *
+A B
+B id , B
+B id . id , B
+B id
+B id . id
+N id
+N id , N
+W ( W )
+W ( E )
+W ( W ) and W
+W ( W ) or W
+W id r ' id ' and W
+W id . id r ' id ' and W
+W id r ' id ' or W
+W id . id r ' id ' or W
+W id r num and W
+W id . id r num and W
+W id r num or W
+W id . id r num or W
+W id . id r id . id  and W
+W id r ' id '
+W id . id r ' id '
+W id r num
+W id . id r num
+W id . id r id . id
+W id r id
+W id r id and W
+W id r id or W

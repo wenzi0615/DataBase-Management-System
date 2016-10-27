@@ -1,0 +1,28 @@
+create table stu(name char(8),enum int);
+CREATE TABLE DUCK(A CHAR(8),B INT);
+
+insert into stu values('lucy','1');
+insert into stu values('li','2');
+insert into stu values('qis','3');
+
+create index stu_index on stu(name asc);
+create index stu_index2 on stu(name desc);
+
+create index duck_index on duck(b desc);
+
+insert into stu(name,enum) values('is','5');
+insert into stu values('tf','4');
+insert into stu(name) values('q');
+
+delete from stu where(enum=3);
+delete from stu where(name='li' and enum=2);
+delete from stu;
+ 
+update stu set name='www' where (enum=1);
+
+alter table stu add(con char);
+alter table stu drop(name);
+
+drop index stu_index;
+
+select * from stu;

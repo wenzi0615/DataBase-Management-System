@@ -1,0 +1,1 @@
+insert  into  id  values ( ' id ' , ' num' ) 

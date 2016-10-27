@@ -1,0 +1,16 @@
+grant createtab to jack;
+grant inserttab on u to lucy;
+grant delettab on u to jack;
+revoke inserttab on u from lucy;
+
+create table u(name char(8),enum int);
+create table stu(name char(8),enum int);
+
+insert into u values('li','110');
+insert into stu values('li','110');
+
+update u set name='vv' where (enum=110);
+
+insert into u values('sjs','1');
+
+delete from u where(enum=1);

@@ -1,0 +1,10 @@
+S E
+E grant A B to U
+E revoke A B from U
+A id , A
+A id
+U id , U
+U id
+B on id
+B
+

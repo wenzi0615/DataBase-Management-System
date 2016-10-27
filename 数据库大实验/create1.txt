@@ -1,0 +1,31 @@
+C T
+T create table id ( Y )
+T create index id on id ( O )
+T create view id as select B from N where W
+Y id char , Y
+Y id char
+Y id char ( num ) , Y
+Y id char ( num )
+Y id int , Y
+Y id int
+Y id varchar ( num ) , Y
+Y id varchar ( num )
+O id asc
+O id desc
+B id , B
+B id
+B *
+N id , N
+N id
+W ( W )
+W ( W ) and W
+W ( W ) or W
+W id r ' id ' and W
+W id r ' id ' or W
+W id r num and W
+W id r num or W
+W id r ' id '
+W id r num
+W id r id
+W id r id and W
+W id r id or W

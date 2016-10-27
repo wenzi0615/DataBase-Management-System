@@ -1,0 +1,35 @@
+create table stu(name char(8),enum int);
+create table s(wen char(8),zi int);
+CREATE TABLE DUCK(A CHAR(8),B INT);
+insert into stu values('lucy','1');
+insert into stu values('lucy','210');
+insert into stu values('li','110');
+insert into stu values('qi');
+insert into stu values('l','1120');
+insert into stu values('liq','110');
+insert into stu values('qis','3');
+insert into stu values('tf','576');
+
+insert into duck values('we','234');
+insert into duck values('ee','434');
+insert into duck values('te','334');
+
+insert into stu(name,enum) values('is','222');
+insert into stu(name,enum) values('is','222');
+delete from stu where(enum=2);
+delete from stu where(name='lucy');
+delete from stu where(name='lucy' and enum=210);
+delete from stu where(name='lucy' or enum=110);
+delete from stu;
+update stu set name='vv' where (enum=210); 
+update stu set name='www' where (enum=1);
+update stu set name='s' where (name='lucy');
+update stu set name='qq' where (name='lucy') or (enum=1);
+drop table stu;
+alter table stu add(con char);
+alter table stu drop(enum);
+create unique index stu_index on stu(name asc) cluster;
+create index stu_index on stu(name asc);
+create index duck_index on duck(b desc);
+drop index stu_index;
+

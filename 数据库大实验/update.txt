@@ -1,0 +1,14 @@
+S update id set F where W
+F id r ' id ' , F
+F id r num , F
+F id r ' id '
+F id r num
+W ( W )
+W ( W ) and W
+W ( W ) or W
+W id r ' id ' and W
+W id r ' id ' or W
+W id r num and W
+W id r num or W
+W id r ' id '
+W id r num

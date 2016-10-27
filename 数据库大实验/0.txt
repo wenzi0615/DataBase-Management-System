@@ -1,0 +1,1 @@
+insert into stu values('li','110');

@@ -1,0 +1,1 @@
+stu 0000 name char8 enum int 

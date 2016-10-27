@@ -1,0 +1,15 @@
+S E
+E alter table id drop ( U )
+E alter table id add ( F )
+F id char ( num ) , F
+F id char ( num )
+F id char , F
+F id char 
+F id int , F
+F id int
+F id varchar ( num ) , F
+F id varchar ( num )
+F id float , F
+F id float
+U id , U
+U id

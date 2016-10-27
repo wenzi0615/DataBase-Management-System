@@ -1,0 +1,10 @@
+S E
+E insert into id values ( F )
+E insert into id ( G ) values ( F )
+G id , G
+G id
+F ' id ' , F
+F ' num ' , F
+F ' id '
+F ' num '
+

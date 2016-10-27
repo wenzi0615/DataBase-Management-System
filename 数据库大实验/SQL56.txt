@@ -1,0 +1,41 @@
+create table stu(name char(8),enum int);
+insert into stu values('lucy','1');
+insert into stu values('sam','2');
+insert into stu values('dan','3');
+delete from stu where(enum=2);
+
+create table course(ec int,cnum int);
+insert into course values('1','001');
+insert into course values('2','002');
+insert into course values('3','003');
+
+create table teacher(tname char(8),tcnum int);
+insert into teacher values('qin','001');
+insert into teacher values('wang','002');
+insert into teacher values('li','003');
+
+create index stu_index on stu(name asc);
+create index course_index on course(ec desc);
+
+select * from stu;
+select name from stu;
+select name,enum from stu;
+select name from stu where enum=1 and name='lucy';
+select name from stu where name!='lucy';
+select name,enum from stu where enum=1 and name='lucy';
+select * from stu where enum=1 and name='lucy';
+select * from stu,course;
+select enum,name,cnum from stu,course;
+select enum,name,cnum from stu,course where enum=1 and name='lucy';
+select enum,name,cnum from stu,course where ec=enum;
+select enum,name,cnum from stu,course where enum=ec and name='lucy';
+select enum,name,cnum,tname from stu,course,teacher where ec=enum and tcnum=cnum;
+select * from stu,course,teacher where ec=enum and tcnum=cnum;
+
+create view stu_view as select name from stu where enum=1;
+
+
+
+
+
+

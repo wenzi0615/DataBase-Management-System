@@ -1,0 +1,13 @@
+C T
+T create table id ( Y )
+T create index id on id ( O )
+Y id char , Y
+Y id char
+Y id char ( num ) , Y
+Y id char ( num )
+Y id int , Y
+Y id int
+Y id varchar ( num ) , Y
+Y id varchar ( num )
+O id asc
+O id desc

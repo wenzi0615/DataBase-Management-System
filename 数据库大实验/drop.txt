@@ -1,0 +1,4 @@
+S E
+E drop table id 
+E drop index id
+E drop view  id
